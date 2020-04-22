@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:black;
+}
+
+a:hover {
+    color: #FF7931;
+}
+
+footer a {
+    color: white;
+}
+
+.header-h {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 60px;
+}
+
+header .navigation-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.info {
+    margin-top: 47px;
+    height: 464px;
+    background-image: url('img/Mask\ Group.jpg');
+}
+
+.info-icon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 46px; 
+}
+
+.info h1 {
+    padding-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 72px;
+}
+
+.info p {
+    padding: 70px 492px 48px 492px ;
+    color: white;
+    text-align: center;
+    
+    font-size: 14px;
+}
+
+.reviews h3 {
+    margin-top: 44px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.reviews-list {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+    margin-right: 136px;
+    margin-left: 136px;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.reviews-list li {
+    padding-left: 20px;
+}
+
+.reviews-list h4 {
+    font-size: 23px;
+}
+
+.reviews-list p {
+    font-size: 14px;
+}
+
+.feauteres {
+    height: 556px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #f7f7f7;
+    background-image: url('img/Ellipse\ 1.png') cover;
+}
+
+.feauteres h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.feauteres-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feauteres-list h4 {
+    font-size: 23px;
+    text-align: center;
+
+}
+
+.feauteres-list li p {
+    font-size: 14px;
+    padding-left: 535px;
+    padding-right: 535px;
+    text-align: center;
+}
+
+footer {
+    height: 295px;
+    background-color: #575757;
+    color: white;
+}
+
+.footer-h {
+    padding-top: 26px;
+    text-align: center;
+}
+ 
+footer .navigation-list {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin-top: 35px;
+    text-transform: uppercase;
+    font-size: 15px;
+    padding-right: 46px;
+    border-bottom: 20px solid #575757;
+}
+
+
+.social-icons {
+    margin-top: 88px;
+    margin-left: 635px;
+}
+.insta-icon{
+    margin-left: 14px;
+    background-color: white;
+    padding: 10px;
+    padding-top: 15px;
+    /* background-image: url('img/icons_2.svg');
+    background-repeat: no-repeat;
+    background-position: 50% 50%; */
+
+    
+}
+
